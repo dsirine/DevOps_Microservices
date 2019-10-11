@@ -9,7 +9,7 @@ dockerpath=dsirine/app
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run app --image=dsirine/app --port=8000
+kubectl run app --image=dsirine/app --restart=Never --port=8000
 
 # Step 3:
 # List kubernetes pods

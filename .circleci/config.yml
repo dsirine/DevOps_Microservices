@@ -40,4 +40,8 @@ jobs:
           name: run lint
           command: |
             . devops/bin/activate
-            make lint 
+            python app.py test
+
+      - store_artifacts:
+          path: test-reports
+          destination: test-reports

@@ -24,7 +24,7 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            python3 -m venv ~/.devops --always-copy
+            python3 -m venv ~/.devops
             . devops/bin/activate
             make install
             # Install hadolint
@@ -67,7 +67,7 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            python3 -m venv ~/.devops --always-copy
+            python3 -m venv ~/.devops
             . devops/bin/activate
             make install
             # Install hadolint

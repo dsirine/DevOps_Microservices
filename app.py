@@ -47,6 +47,7 @@ def predict():
         "LSTAT":{
         "0":4.98
         }
+        }
         
         result looks like:
         { "prediction": [ <val> ] }

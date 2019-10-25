@@ -1,15 +1,16 @@
-## Project Overview
+### Project Overview
 Operationalize a Machine Learning Microservice API. 
 
-### Project Tasks
+## link of Status badges: 
+    https://circleci.com/gh/dsirine/DevOps_Microservices.svg?style=svg
+
+# Project Tasks
 
     Installing dependencies via project Makefile: i use make install  command,it run perfectly
     Run Lint Checks: pylint app.py: to lint my app.py
                      hadolint Dockerfile: to lint my Dockerfile
                      make lint: to lint both Dockerfile and app.py
 
-# link of Status badges: 
-    https://circleci.com/gh/dsirine/DevOps_Microservices.svg?style=svg
 
 # install environment:     
     minikube,docker and kubernetes are perfectly installed in my PC.

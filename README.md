@@ -6,11 +6,12 @@ Operationalize a Machine Learning Microservice API.
     Installing dependencies via project Makefile: i use make install  command,it run perfectly
     Run Lint Checks: pylint app.py: to lint my app.py
                      hadolint Dockerfile: to lint my Dockerfile
-                     make lint: Here i found a problem that:
-                     Your code has been rated at 8.21/10 (previous run: 8.21/10, +0.00)
-                     make: *** [Makefile:10: lint] Error 4
-                     I try to execute the API in the local by using Postman i get a problem.thank you for reviewing the API communicated
-    
+                     make lint: to lint both Dockerfile and app.py
+
+# link of Status badges: 
+    https://circleci.com/gh/dsirine/DevOps_Microservices.svg?style=svg
+
+# install environment:     
     minikube,docker and kubernetes are perfectly installed in my PC.
     run_docker.sh : build and run the docker image that you defined in the Dockerfile
     docker_out.txt: the result of prediction here is "POST /predict HTTP/1.1" 500 -
